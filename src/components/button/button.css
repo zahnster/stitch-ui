@@ -1,0 +1,10 @@
+.st-button {
+  border: none;
+  background-color: var(--color-brand-contrast-1);
+  color: var(--color-neutral-base-1);
+  border-radius: var(--radius-small);
+  padding-top: var(--spacing-small);
+  padding-bottom: var(--spacing-small);
+  padding-left: var(--spacing-medium);
+  padding-right: var(--spacing-medium);
+}
