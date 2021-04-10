@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = {
   stories: ["../src/stitch/*.stories.js", "../src/components/**/*.stories.jsx"],
-  addons: ["@storybook/addon-controls"],
+  addons: ["@storybook/addon-controls", "@storybook/addon-cssresources"],
 
   webpackFinal: async (config) => {
     // modify default css loader
