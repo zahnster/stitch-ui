@@ -21,10 +21,7 @@ module.exports = {
     // add our custom styled jsx css loader
     config.module.rules.push({
       test: /\.css$/,
-      use: [
-        path.resolve(__dirname, "../util/webpack/wc-to-styled-jsx.js"),
-        "raw-loader",
-      ],
+      use: ["wc-to-styled-jsx-loader", "raw-loader"],
       include: path.resolve(__dirname, "../src"),
     });
 
