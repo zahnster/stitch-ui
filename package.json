@@ -10,6 +10,8 @@
     "packages/**"
   ],
   "scripts": {
-    "start:storybook": "pnpm run dev --filter @stitch-ui/components"
+    "start:storybook": "pnpm dev --filter @stitch-ui/components",
+    "build": "pnpm build --filter @stitch-ui/components",
+    "start": "pnpm start --filter @stitch-ui/components"
   }
 }
