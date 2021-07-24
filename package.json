@@ -12,6 +12,9 @@
   "scripts": {
     "start:storybook": "pnpm dev --filter @stitch-ui/components",
     "build": "pnpm build --filter @stitch-ui/components",
-    "start": "pnpm start --filter @stitch-ui/components"
+    "start": "pnpm start --filter @stitch-ui/components",
+    "dev:website": "pnpm dev --filter @stitch-ui/website",
+    "build:website": "pnpm build --filter @stitch-ui/website",
+    "start:website": "pnpm start --filter @stitch-ui/website"
   }
 }

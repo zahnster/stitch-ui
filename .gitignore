@@ -1,3 +1,10 @@
 node_modules
+
+# storybook
 .out
+
+# next
+.next
+
+# os files
 .DS_Store
