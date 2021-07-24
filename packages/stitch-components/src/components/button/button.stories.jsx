@@ -6,7 +6,10 @@ export default {
   component: Button,
 };
 
+// export const Test = () => <button>What the ever loving fuck</button>;
+
 const Template = (args) => <Button {...args} />;
+// const Template = (args) => <button>{args.children}</button>;
 
 export const Base = Template.bind({});
 Base.args = {

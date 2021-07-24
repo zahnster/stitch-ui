@@ -5,7 +5,9 @@ export function Button(props) {
   return (
     <button className="st-button">
       {props.children}
-      <style jsx>{css}</style>
+      <style jsx>{`
+        ${css}
+      `}</style>
     </button>
   );
 }
