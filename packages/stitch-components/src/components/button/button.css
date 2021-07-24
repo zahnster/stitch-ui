@@ -1,4 +1,4 @@
-.st-button {
+:root {
   border: none;
   background-color: var(--color-brand-contrast-1);
   color: var(--color-neutral-base-1);
