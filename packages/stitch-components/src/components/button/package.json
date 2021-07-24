@@ -1,0 +1,8 @@
+{
+  "name": "@stitch-ui/button",
+  "version": "0.1.0",
+  "description": "Stitch UI: Button",
+  "main": "button.jsx",
+  "author": "Jade Pennig <jade@pennig.name>",
+  "license": "MIT"
+}
