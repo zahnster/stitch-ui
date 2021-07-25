@@ -15,7 +15,6 @@ module.exports = function (content) {
       css = fs
         .readFileSync(`${basePath}/${match[2]}.css`, "utf-8")
         .replace(/\n/g, "")
-        .replace(/\s/g, "")
         .replace(/:root\s?{(.*?)}/, "$1");
 
       return ""; // "erase" the line from the source code
