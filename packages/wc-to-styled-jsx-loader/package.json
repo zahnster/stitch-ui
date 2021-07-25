@@ -1,8 +1,0 @@
-{
-  "name": "wc-to-styled-jsx-loader",
-  "version": "1.0.0",
-  "description": "Converts Web Component Based CSS to work with Styled JSX Scoping",
-  "main": "index.js",
-  "author": "Jade Pennig <jade@pennig.name>",
-  "license": "MIT"
-}
