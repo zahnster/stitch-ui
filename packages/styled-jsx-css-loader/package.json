@@ -1,0 +1,8 @@
+{
+  "name": "styled-jsx-css-loader",
+  "version": "1.0.0",
+  "description": "Converts external WC-based CSS to Styled JSX and inlines into style tag",
+  "main": "index.js",
+  "author": "Jade Pennig <jade@pennig.name>",
+  "license": "MIT"
+}
