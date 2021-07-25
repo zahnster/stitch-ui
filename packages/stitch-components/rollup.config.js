@@ -5,8 +5,8 @@ import multiInput from "rollup-plugin-multi-input";
 
 import wcToStyledJSX from "./lib/rollup-plugin-styled-jsx";
 
-const componentFiles = fastGlob.sync("./src/components/**/*.jsx", {
-  ignore: ["./src/components/**/*.stories.jsx"],
+const componentFiles = fastGlob.sync("./components/**/*.jsx", {
+  ignore: ["./components/**/*.stories.jsx"],
 });
 
 export default {

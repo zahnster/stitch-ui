@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  stories: ["../src/**/*.stories.jsx"],
+  stories: ["../components/**/*.stories.jsx", "../stitch/welcome.stories.jsx"],
   addons: ["@storybook/addon-controls", "@storybook/addon-cssresources"],
 
   babel: async (options) => {
@@ -13,7 +13,7 @@ module.exports = {
     // modify default css loader to not process src css files
     config.module.rules = config.module.rules.map((rule) => {
       if (rule.test.toString().match(".css")) {
-        rule.exclude = path.resolve(__dirname, "../src");
+        rule.exclude = path.resolve(__dirname, "../components");
       }
       return rule;
     });
@@ -22,7 +22,7 @@ module.exports = {
     config.module.rules.push({
       test: /\.css$/,
       use: ["wc-to-styled-jsx-loader", "raw-loader"],
-      include: path.resolve(__dirname, "../src"),
+      include: path.resolve(__dirname, "../components"),
     });
 
     return config;
