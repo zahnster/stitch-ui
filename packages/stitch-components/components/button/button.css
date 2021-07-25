@@ -1,10 +1,68 @@
-:root {
+.stui-button {
+  appearance: none;
   border: none;
-  background-color: var(--color-brand-contrast-1);
-  color: var(--color-neutral-base-1);
-  border-radius: var(--radius-small);
-  padding-top: var(--spacing-small);
-  padding-bottom: var(--spacing-small);
-  padding-left: var(--spacing-medium);
-  padding-right: var(--spacing-medium);
+}
+
+.stui-button:not([disabled]) {
+  cursor: pointer;
+}
+
+.stui-button[disabled] {
+  opacity: 0.4;
+}
+
+.stui-button.primary {
+  background-color: var(--button-primary-color-background);
+  color: var(--button-primary-color-text);
+  border-radius: var(--button-primary-border-radius);
+  padding-top: var(
+    --button-primary-padding-top,
+    var(--button-primary-padding-vertical, var(--button-primary-padding))
+  );
+  padding-bottom: var(
+    --button-primary-padding-bottom,
+    var(--button-primary-padding-vertical, var(--button-primary-padding))
+  );
+  padding-left: var(
+    --button-primary-padding-start,
+    var(--button-primary-padding-horizontal, var(--button-primary-padding))
+  );
+  padding-right: var(
+    --button-primary-padding-end,
+    var(--button-primary-padding-horizontal, var(--button-primary-padding))
+  );
+  box-shadow: var(--button-primary-box-shadow);
+}
+
+.stui-button.primary:not([disabled]):hover {
+  background-color: var(--button-primary-hover-color-background);
+  box-shadow: var(--button-primary-hover-box-shadow);
+}
+
+.stui-button.secondary {
+  background-color: var(--button-secondary-color-background);
+  color: var(--button-secondary-color-text);
+  border-radius: var(--button-secondary-border-radius);
+  padding-top: var(
+    --button-secondary-padding-top,
+    var(--button-secondary-padding-vertical, var(--button-secondary-padding))
+  );
+  padding-bottom: var(
+    --button-secondary-padding-bottom,
+    var(--button-secondary-padding-vertical, var(--button-secondary-padding))
+  );
+  padding-left: var(
+    --button-secondary-padding-start,
+    var(--button-secondary-padding-horizontal, var(--button-secondary-padding))
+  );
+  padding-right: var(
+    --button-secondary-padding-end,
+    var(--button-secondary-padding-horizontal, var(--button-secondary-padding))
+  );
+  box-shadow: var(--button-secondary-box-shadow);
+}
+
+.stui-button.secondary:not([disabled]):hover {
+  background-color: var(--button-secondary-hover-color-background);
+  box-shadow: inset 0 0 2px 1px var(--button-secondary-hover-box-shadow);
 }

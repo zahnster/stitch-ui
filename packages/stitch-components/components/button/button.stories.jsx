@@ -6,12 +6,23 @@ export default {
   component: Button,
 };
 
-// export const Test = () => <button>What the ever loving fuck</button>;
-
 const Template = (args) => <Button {...args} />;
-// const Template = (args) => <button>{args.children}</button>;
 
-export const Base = Template.bind({});
-Base.args = {
-  children: "Hello World",
+export const Primary = Template.bind({});
+Primary.args = {
+  children: "Primary Action Button",
+  variant: "primary",
+};
+
+export const Secondary = Template.bind({});
+Secondary.args = {
+  children: "Secondary Action Button",
+  variant: "secondary",
+};
+
+export const Disabled = Template.bind({});
+Disabled.args = {
+  children: "Disabled Button",
+  variant: "primary",
+  disabled: true,
 };
