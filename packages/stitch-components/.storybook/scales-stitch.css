@@ -1,0 +1,32 @@
+:root {
+  /* Scales: Color */
+  --color-base-0: #fff;
+
+  --color-brand-contrast-1: #4ba652;
+  --color-brand-contrast-2: #4ba652;
+  --color-brand-contrast-3: #2c6749;
+  --color-brand-inverse-1: #224c3c;
+  --color-brand-inverse-2: #15332b;
+
+  --color-neutral-base-1: #f2f4f5;
+  --color-neutral-base-2: #b5ccde;
+  --color-neutral-contrast-1: #7997b0;
+  --color-neutral-contrast-2: #60778d;
+  --color-neutral-contrast-3: #4c5e71;
+  --color-neutral-inverse-1: #384657;
+  --color-neutral-inverse-2: #262f3b;
+
+  /* Scales: Radii */
+  --radius-x-small: 2px;
+  --radius-small: 4px;
+  --radius-medium: 6px;
+  --radius-large: 10px;
+  --radius-x-large: 16px;
+
+  /* Scales: Spacing */
+  --spacing-x-small: 3px;
+  --spacing-small: 6px;
+  --spacing-medium: 9px;
+  --spacing-large: 15px;
+  --spacing-x-large: 24px;
+}

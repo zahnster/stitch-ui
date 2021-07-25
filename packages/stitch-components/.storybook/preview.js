@@ -1,5 +1,6 @@
 import { withCssResources } from "@storybook/addon-cssresources";
-import "./styles.css";
+import "./scales-stitch.css";
+import "./theme-classic.css";
 
 export const parameters = {
   cssresources: [
@@ -7,7 +8,7 @@ export const parameters = {
       id: `BlueTheme`,
       code: `<style>
         :root { 
-          --color-brand-contrast-1: blue;
+          --color-brand-contrast-2: blue;
          }
       </style>`,
       picked: false,

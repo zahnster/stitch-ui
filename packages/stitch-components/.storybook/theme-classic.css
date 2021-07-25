@@ -1,0 +1,25 @@
+:root {
+  /* Button: Primary */
+  --button-primary-color-background: var(--color-brand-contrast-2);
+  --button-primary-color-text: var(--color-base-0);
+  --button-primary-border-radius: var(--radius-small);
+  --button-primary-padding-vertical: var(--spacing-medium);
+  --button-primary-padding-horizontal: var(--spacing-large);
+  --button-primary-hover-color-background: var(--color-brand-contrast-3);
+  --button-primary-hover-box-shadow: inset 0 0 2px 1px
+    var(--color-brand-inverse-1);
+
+  /* Button: Secondary */
+  --button-secondary-color-background: var(--color-neutral-contrast-2);
+  --button-secondary-color-text: var(--color-base-0);
+  --button-secondary-border-radius: var(--radius-small);
+  --button-secondary-padding-vertical: var(--spacing-medium);
+  --button-secondary-padding-horizontal: var(--spacing-large);
+  --button-secondary-hover-color-background: var(--color-neutral-contrast-3);
+  --button-secondary-hover-box-shadow: inset 0 0 2px 1px
+    var(--color-neutral-inverse-1);
+}
+
+html {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
