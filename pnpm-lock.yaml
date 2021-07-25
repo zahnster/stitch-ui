@@ -52,10 +52,10 @@ importers:
       styled-jsx: 3.4.4_react@17.0.2
       wc-to-styled-jsx-loader: link:../wc-to-styled-jsx-loader
 
-  packages/stitch-components/src/components/alert:
+  packages/stitch-components/components/alert:
     specifiers: {}
 
-  packages/stitch-components/src/components/button:
+  packages/stitch-components/components/button:
     specifiers: {}
 
   packages/stitch-website:
@@ -68,7 +68,7 @@ importers:
       react-dom: ^17.0.2
       wc-to-styled-jsx-loader: 1.0.0
     dependencies:
-      '@stitch-ui/button': link:../stitch-components/src/components/button
+      '@stitch-ui/button': link:../stitch-components/components/button
       next: 11.0.1_react-dom@17.0.2+react@17.0.2
       next-transpile-modules: 8.0.0
       raw-loader: 4.0.2
