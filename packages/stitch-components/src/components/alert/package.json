@@ -1,0 +1,8 @@
+{
+  "name": "@stitch-ui/alert",
+  "version": "0.1.0",
+  "description": "Stitch UI: Alert",
+  "main": "alert.jsx",
+  "author": "Jade Pennig <jade@pennig.name>",
+  "license": "MIT"
+}
