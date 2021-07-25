@@ -1,11 +1,11 @@
+// transpiles declared packages in node_modules
 const withTM = require("next-transpile-modules")(["@stitch-ui/button"]);
 
 module.exports = withTM({
   webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
-    // css loader for stitch components (currently not transpiled)
     config.module.rules.push({
-      test: /\.css$/,
-      use: ["wc-to-styled-jsx-loader", "raw-loader"],
+      test: /\.[j|t]sx$/,
+      use: ["styled-jsx-css-loader"],
     });
 
     return config;

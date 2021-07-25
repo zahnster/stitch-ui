@@ -2,7 +2,11 @@ const path = require("path");
 
 module.exports = {
   stories: ["../components/**/*.stories.jsx", "../stitch/welcome.stories.jsx"],
-  addons: ["@storybook/addon-controls", "@storybook/addon-cssresources"],
+  addons: [
+    "@storybook/addon-docs",
+    "@storybook/addon-controls",
+    "@storybook/addon-cssresources",
+  ],
 
   babel: async (options) => {
     options.plugins.push("styled-jsx/babel");
@@ -10,18 +14,9 @@ module.exports = {
   },
 
   webpackFinal: async (config) => {
-    // modify default css loader to not process src css files
-    config.module.rules = config.module.rules.map((rule) => {
-      if (rule.test.toString().match(".css")) {
-        rule.exclude = path.resolve(__dirname, "../components");
-      }
-      return rule;
-    });
-
-    // add our custom styled jsx css loader
     config.module.rules.push({
-      test: /\.css$/,
-      use: ["wc-to-styled-jsx-loader", "raw-loader"],
+      test: /\.[j|t]sx$/,
+      use: ["styled-jsx-css-loader"],
       include: path.resolve(__dirname, "../components"),
     });
 
