@@ -1,6 +1,6 @@
 function StitchWebsite({ Component, pageProps }) {
   return (
-    <div class="app">
+    <div className="app">
       <Component {...pageProps} />
 
       <style jsx global>{`
