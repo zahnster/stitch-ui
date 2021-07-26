@@ -66,3 +66,29 @@
   background-color: var(--button-secondary-hover-color-background);
   box-shadow: inset 0 0 2px 1px var(--button-secondary-hover-box-shadow);
 }
+
+.stui-button.icon {
+  background-color: transparent;
+  line-height: 0.85;
+  padding-top: var(
+    --button-icon-padding-top,
+    var(--button-icon-padding-vertical, var(--button-icon-padding))
+  );
+  padding-bottom: var(
+    --button-icon-padding-bottom,
+    var(--button-icon-padding-vertical, var(--button-icon-padding))
+  );
+  padding-left: var(
+    --button-icon-padding-start,
+    var(--button-icon-padding-horizontal, var(--button-icon-padding))
+  );
+  padding-right: var(
+    --button-icon-padding-end,
+    var(--button-icon-padding-horizontal, var(--button-icon-padding))
+  );
+  border-radius: var(--button-icon-border-radius);
+}
+
+.stui-button.icon:hover {
+  box-shadow: var(--button-icon-hover-box-shadow);
+}

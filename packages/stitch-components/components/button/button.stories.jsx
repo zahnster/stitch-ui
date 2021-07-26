@@ -26,3 +26,9 @@ Disabled.args = {
   variant: "primary",
   disabled: true,
 };
+
+export const ButtonIcon = Template.bind({});
+ButtonIcon.args = {
+  children: <ion-icon name="heart"></ion-icon>,
+  variant: "icon",
+};
