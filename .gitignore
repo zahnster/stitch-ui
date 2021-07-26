@@ -2,6 +2,7 @@ node_modules
 
 # storybook
 .out
+build-storybook.log
 
 # next
 .next

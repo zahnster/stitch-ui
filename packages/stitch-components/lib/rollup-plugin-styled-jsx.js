@@ -5,11 +5,11 @@ export default function WCToStyledJSX() {
     name: "wc-to-styled-jsx", // this name will show up in warnings and errors
 
     transform(code, id) {
+      const basePath = id.match(/(.*)\/.*.jsx/)[1];
       const lines = code.split(/\n/);
 
       let cssVar = null;
       let css = null;
-      let basePath = id.match(/(.*)\/.*.jsx/)[1];
 
       const edited = lines.map((line) => {
         const match = line.match(/import (.*) from "\.\/(.*).css";/);
