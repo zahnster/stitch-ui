@@ -1,5 +1,5 @@
 {
-  "extends": [
-    "config:base"
-  ]
+  "extends": ["config:base"],
+  "ignorePresets": [":prHourlyLimit2"],
+  "rebaseWhen": "behind-base-branch"
 }
