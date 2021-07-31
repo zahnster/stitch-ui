@@ -38,6 +38,6 @@
     "styled-jsx-css-loader": "1.0.0"
   },
   "dependencies": {
-    "serve": "^11.3.2"
+    "serve": "^12.0.0"
   }
 }
