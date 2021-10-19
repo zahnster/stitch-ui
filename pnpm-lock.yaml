@@ -21,7 +21,7 @@ importers:
       chromatic: 5.10.0-canary.0
       classnames: 2.3.1
       fast-glob: 3.2.7
-      prettier: 2.3.2
+      prettier: 2.4.1
       prop-types: 15.7.2
       raw-loader: 4.0.2
       react: 17.0.2
@@ -48,7 +48,7 @@ importers:
       chromatic: 5.10.0-canary.0
       classnames: 2.3.1
       fast-glob: 3.2.7
-      prettier: 2.3.2
+      prettier: 2.4.1
       prop-types: 15.7.2
       raw-loader: 4.0.2
       react: 17.0.2
@@ -9167,8 +9167,8 @@ packages:
     hasBin: true
     dev: true
 
-  /prettier/2.3.2:
-    resolution: {integrity: sha512-lnJzDfJ66zkMy58OL5/NY5zp70S7Nz6KqcKkXYzn2tMVrNxvbqaBpg7H3qHaLxCJ5lNMsGuM8+ohS7cZrthdLQ==}
+  /prettier/2.4.1:
+    resolution: {integrity: sha512-9fbDAXSBcc6Bs1mZrDYb3XKzDLm4EXXL9sC1LqKP5rZkT6KRr/rf9amVUcODVXgguK/isJz0d0hP72WeaKWsvA==}
     engines: {node: '>=10.13.0'}
     hasBin: true
     dev: true
