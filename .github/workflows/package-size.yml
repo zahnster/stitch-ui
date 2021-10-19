@@ -36,3 +36,6 @@ jobs:
         uses: pkg-size/action@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          build-command: "pnpm build:components"
+          hide-files: "**/!(dist|cjs)/*.js"
