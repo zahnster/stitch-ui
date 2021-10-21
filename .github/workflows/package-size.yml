@@ -33,9 +33,8 @@ jobs:
         run: pnpm install
 
       - name: Package size report
-        uses: pkg-size/action@v1
+        uses: ./.github/actions/compressed-size-action
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          build-command: "pnpm build:components"
-          hide-files: "**/stitch-website/**/*"
+          build-script: "pnpm build:components"
