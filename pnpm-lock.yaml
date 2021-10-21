@@ -12,7 +12,7 @@ importers:
       '@babel/preset-react': 7.14.5
       '@rollup/plugin-babel': 5.3.0
       '@rollup/plugin-commonjs': 20.0.0
-      '@rollup/plugin-node-resolve': 13.0.4
+      '@rollup/plugin-node-resolve': 13.0.6
       '@storybook/addon-controls': 6.3.12
       '@storybook/addon-cssresources': 6.2.9
       '@storybook/addon-docs': 6.3.12
@@ -39,7 +39,7 @@ importers:
       '@babel/preset-react': 7.14.5_@babel+core@7.15.5
       '@rollup/plugin-babel': 5.3.0_@babel+core@7.15.5+rollup@2.58.0
       '@rollup/plugin-commonjs': 20.0.0_rollup@2.58.0
-      '@rollup/plugin-node-resolve': 13.0.4_rollup@2.58.0
+      '@rollup/plugin-node-resolve': 13.0.6_rollup@2.58.0
       '@storybook/addon-controls': 6.3.12_react-dom@17.0.2+react@17.0.2
       '@storybook/addon-cssresources': 6.2.9_react-dom@17.0.2+react@17.0.2
       '@storybook/addon-docs': 6.3.12_react-dom@17.0.2+react@17.0.2
@@ -2082,8 +2082,8 @@ packages:
       rollup: 2.58.0
     dev: true
 
-  /@rollup/plugin-node-resolve/13.0.4_rollup@2.58.0:
-    resolution: {integrity: sha512-eYq4TFy40O8hjeDs+sIxEH/jc9lyuI2k9DM557WN6rO5OpnC2qXMBNj4IKH1oHrnAazL49C5p0tgP0/VpqJ+/w==}
+  /@rollup/plugin-node-resolve/13.0.6_rollup@2.58.0:
+    resolution: {integrity: sha512-sFsPDMPd4gMqnh2gS0uIxELnoRUp5kBl5knxD2EO0778G1oOJv4G1vyT2cpWz75OU2jDVcXhjVUuTAczGyFNKA==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
