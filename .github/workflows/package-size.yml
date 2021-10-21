@@ -34,7 +34,6 @@ jobs:
 
       - name: Package size report
         uses: ./.github/actions/compressed-size-action
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           build-script: "pnpm build:components"
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
