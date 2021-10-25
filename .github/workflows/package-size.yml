@@ -33,7 +33,7 @@ jobs:
         run: pnpm install
 
       - name: Package size report
-        uses: zahnster/compressed-size-action@2.4.2
+        uses: zahnster/compressed-size-action@ccc4fe3199e8bbd8f32323574aed39abbc3b430a
         with:
           build-script: "pnpm build:components"
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
