@@ -23,17 +23,11 @@ jobs:
           # Where to store PNPM files
           # dest: # optional, default is ~/setup-pnpm
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: 12.x
-          cache: "pnpm"
-
       - name: Install project dependencies
         run: pnpm install
 
       - name: Package size report
-        uses: zahnster/compressed-size-action@ccc4fe3199e8bbd8f32323574aed39abbc3b430a
+        uses: zahnster/compressed-size-action@2.4.2
         with:
           build-script: "pnpm build:components"
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
