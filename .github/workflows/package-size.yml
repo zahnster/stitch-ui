@@ -29,5 +29,5 @@ jobs:
       - name: Package size report
         uses: zahnster/compressed-size-action@2.4.2
         with:
-          build-script: "pnpm build:components"
+          build-script: "build:components"
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
