@@ -22,7 +22,7 @@ importers:
       classnames: 2.3.1
       fast-glob: 3.2.11
       prettier: 2.4.1
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       raw-loader: 4.0.2
       react: 17.0.2
       react-dom: 17.0.2
@@ -49,7 +49,7 @@ importers:
       classnames: 2.3.1
       fast-glob: 3.2.11
       prettier: 2.4.1
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       raw-loader: 4.0.2
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -2112,9 +2112,9 @@ packages:
       react: 15.x || 16.x || 16.4.0-alpha.0911da3
       react-dom: 15.x || 16.x || 16.4.0-alpha.0911da3
     dependencies:
-      create-react-context: 0.3.0_prop-types@15.7.2+react@17.0.2
+      create-react-context: 0.3.0_prop-types@15.8.1+react@17.0.2
       invariant: 2.2.4
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-lifecycles-compat: 3.0.4
@@ -2341,7 +2341,7 @@ packages:
       nanoid: 3.1.23
       p-limit: 3.1.0
       prettier: 2.3.0
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-element-to-jsx-string: 14.3.4_react-dom@17.0.2+react@17.0.2
@@ -2651,7 +2651,7 @@ packages:
       memoizerific: 1.11.3
       overlayscrollbars: 1.13.1
       polished: 4.1.3
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-colorful: 5.3.0_react-dom@17.0.2+react@17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -2687,7 +2687,7 @@ packages:
       memoizerific: 1.11.3
       overlayscrollbars: 1.13.1
       polished: 4.1.3
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-colorful: 5.3.0_react-dom@17.0.2+react@17.0.2
       react-dom: 17.0.2_react@17.0.2
@@ -3166,7 +3166,7 @@ packages:
       core-js: 3.15.2
       global: 4.4.0
       lodash: 4.17.21
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-refresh: 0.11.0
@@ -5263,14 +5263,14 @@ packages:
       safe-buffer: 5.2.1
       sha.js: 2.4.11
 
-  /create-react-context/0.3.0_prop-types@15.7.2+react@17.0.2:
+  /create-react-context/0.3.0_prop-types@15.8.1+react@17.0.2:
     resolution: {integrity: sha512-dNldIoSuNSvlTJ7slIKC/ZFGKexBMBrrcc+TTe1NdmROnaASuLPvqpwj9v4XS4uXZ8+YPu0sNmShX2rXI5LNsw==}
     peerDependencies:
       prop-types: ^15.0.0
       react: ^0.14.0 || ^15.0.0 || ^16.0.0
     dependencies:
       gud: 1.0.0
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       warning: 4.0.3
     dev: true
@@ -5651,7 +5651,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.3
       compute-scroll-into-view: 1.0.17
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-is: 17.0.2
     dev: true
@@ -9285,8 +9285,8 @@ packages:
       sisteransi: 1.0.5
     dev: true
 
-  /prop-types/15.7.2:
-    resolution: {integrity: sha512-8QQikdH7//R2vurIJSutZ1smHYTcLpRWEOlHnzcWHmBYrOGUysKwSsrC89BCiFj3CbrfJ/nXFdJepOVrY1GCHQ==}
+  /prop-types/15.8.1:
+    resolution: {integrity: sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==}
     dependencies:
       loose-envify: 1.4.0
       object-assign: 4.1.1
@@ -9526,7 +9526,7 @@ packages:
     resolution: {integrity: sha512-jV4TE59MBuWm7gb6Ns3Q1mxX8Azffb7oTtDtBgFkxRvhDp38YAARmRplrj0+XGkhOJB5XziArX+4HUUABtyZ0w==}
     dependencies:
       classnames: 2.3.1
-      prop-types: 15.7.2
+      prop-types: 15.8.1
     dev: true
 
   /react-element-to-jsx-string/14.3.4_react-dom@17.0.2+react@17.0.2:
@@ -9554,7 +9554,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.15.3
       invariant: 2.2.4
-      prop-types: 15.7.2
+      prop-types: 15.8.1
       react: 17.0.2
       react-dom: 17.0.2_react@17.0.2
       react-fast-compare: 3.2.0
