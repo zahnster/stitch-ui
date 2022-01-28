@@ -13,9 +13,9 @@
     "chromatic": "chromatic --exit-zero-on-changes"
   },
   "devDependencies": {
-    "@babel/core": "7.15.5",
-    "@babel/preset-env": "7.15.6",
-    "@babel/preset-react": "7.14.5",
+    "@babel/core": "7.16.12",
+    "@babel/preset-env": "7.16.11",
+    "@babel/preset-react": "7.16.7",
     "@rollup/plugin-babel": "5.3.0",
     "@rollup/plugin-commonjs": "21.0.1",
     "@rollup/plugin-node-resolve": "13.0.6",
@@ -23,7 +23,7 @@
     "@storybook/addon-cssresources": "6.2.9",
     "@storybook/addon-docs": "6.4.15",
     "@storybook/react": "6.4.15",
-    "babel-loader": "8.2.2",
+    "babel-loader": "8.2.3",
     "chromatic": "5.10.0-canary.0",
     "classnames": "2.3.1",
     "fast-glob": "3.2.11",
