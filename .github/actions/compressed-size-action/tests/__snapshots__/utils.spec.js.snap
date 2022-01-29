@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`diffTable 1`] = `
+"**Size Change:** +9 B (0%) 
+
+**Total Size:** 14.8 kB
+
+| Filename | Size | Change |  |
+| :--- | :---: | :---: | :---: |
+| \`one.js\` | 5 kB | +2.5 kB (+100%) | 🆘 |
+| \`two.js\` | 5 kB | -2.5 kB (-33%) | 🎉 |
+| \`four.js\` | 4.5 kB | +9 B (0%) |  |
+
+<details><summary>ℹ️ <strong>View Unchanged</strong></summary>
+
+| Filename | Size |
+| :--- | :---: |
+| \`three.js\` | 300 B |
+
+</details>
+
+"
+`;
+
+exports[`diffTable 2`] = `
+"| Filename | Size | Change |  |
+| :--- | :---: | :---: | :---: |
+| \`one.js\` | 5 kB | +2.5 kB (+100%) | 🆘 |
+| \`two.js\` | 5 kB | -2.5 kB (-33%) | 🎉 |
+| \`four.js\` | 4.5 kB | +9 B (0%) |  |
+
+<details><summary>ℹ️ <strong>View Unchanged</strong></summary>
+
+| Filename | Size |
+| :--- | :---: |
+| \`three.js\` | 300 B |
+
+</details>
+
+"
+`;
+
+exports[`diffTable 3`] = `
+"**Size Change:** +9 B (0%) 
+
+**Total Size:** 14.8 kB
+
+| Filename | Size | Change |  |
+| :--- | :---: | :---: | :---: |
+| \`one.js\` | 5 kB | +2.5 kB (+100%) | 🆘 |
+| \`two.js\` | 5 kB | -2.5 kB (-33%) | 🎉 |
+| \`three.js\` | 300 B | 0 B |  |
+| \`four.js\` | 4.5 kB | +9 B (0%) |  |"
+`;
+
+exports[`diffTable 4`] = `
+"**Size Change:** +9 B (0%) 
+
+**Total Size:** 14.8 kB
+
+| Filename | Size | Change |  |
+| :--- | :---: | :---: | :---: |
+| \`one.js\` | 5 kB | +2.5 kB (+100%) | 🆘 |
+| \`two.js\` | 5 kB | -2.5 kB (-33%) | 🎉 |
+| \`four.js\` | 4.5 kB | +9 B (0%) |  |"
+`;
+
+exports[`diffTable 5`] = `
+"**Size Change:** +9 B (0%) 
+
+**Total Size:** 14.8 kB
+
+| Filename | Size | Change |  |
+| :--- | :---: | :---: | :---: |
+| \`one.js\` | 5 kB | +2.5 kB (+100%) | 🆘 |
+| \`two.js\` | 5 kB | -2.5 kB (-33%) | 🎉 |
+
+<details><summary>ℹ️ <strong>View Unchanged</strong></summary>
+
+| Filename | Size | Change |
+| :--- | :---: | :---: |
+| \`three.js\` | 300 B | 0 B |
+| \`four.js\` | 4.5 kB | +9 B (0%) |
+
+</details>
+
+"
+`;
+
+exports[`diffTable 6`] = `
+"**Size Change:** 0 B 
+
+**Total Size:** 14.8 kB
+
+
+
+<details><summary>ℹ️ <strong>View Unchanged</strong></summary>
+
+| Filename | Size |
+| :--- | :---: |
+| \`one.js\` | 5 kB |
+| \`two.js\` | 5 kB |
+| \`three.js\` | 300 B |
+| \`four.js\` | 4.5 kB |
+
+</details>
+
+"
+`;
+
+exports[`diffTable 7`] = `
+"**Size Change:** 0 B 
+
+**Total Size:** 300 B
+
+
+
+<details><summary>ℹ️ <strong>View Unchanged</strong></summary>
+
+| Filename | Size |
+| :--- | :---: |
+| \`three.js\` | 300 B |
+
+</details>
+
+"
+`;

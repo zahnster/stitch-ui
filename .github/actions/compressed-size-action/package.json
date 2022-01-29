@@ -1,0 +1,38 @@
+{
+  "name": "compressed-size-action-xpm",
+  "version": "2.4.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "microbundle -f cjs --define 'navigator={}' --compress --no-sourcemap --target node src/index.js",
+    "test": "jest"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/exec": "^1.0.4",
+    "@actions/github": "^4.0.0",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@types/jest": "^26.0.19",
+    "babel-jest": "^27.3.1",
+    "jest": "^27.3.1",
+    "microbundle": "^0.14.1",
+    "pretty-bytes": "^5.4.1",
+    "size-plugin-core": "0.0.9"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  }
+}
